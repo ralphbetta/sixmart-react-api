@@ -1,0 +1,22 @@
+>> npx create-react-app my-project
+>> npm install -D tailwindcss
+>> npx tailwindcss init  
+>> npm install react-icons --save
+>> npm install react-typed --save / --force
+>> npm install react-router-dom --save / --force
+>> npm run start
+>> npm i react-redux
+
+
+
+#### del from src - App.css/App.test.js/logo.svg/reportWebVitals.js/setupTest.js
+#### pesticide chrom extension shows the frid position of your content
+#### https://picsum.photos/ - for random images
+#### https://fakestoreapi.com/docs - free 
+/*---------------------------------------------------------
+https://tailwindcss.com/docs/guides/create-react-app
+---------------------------------------------------------*/
+
+FOR tailwindcss
+//update index.css 
+//update tailwind.config.js
