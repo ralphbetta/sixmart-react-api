@@ -1,18 +1,19 @@
 import React from 'react'
-import Banner from './component/Banner';
-import Divider from './component/Divider';
-import LatestProduct from './component/LatestProduct';
-import { Navbar } from './component/Navbar';
+// import { BrowserRouter as Route, Router, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+//pay attention to the arrangements
+import Home from './pages/Home';
+
 
 function App() {
   return (
-    <div>
-     <Navbar/>
-     <Banner/>
-     <Divider title={"Latest Product"}/>
-     <LatestProduct/>
-    </div>
+    <Router>
+      <Routes>
+        <Route exact path='/' element={<Home/>} />
+      </Routes>
+    </Router>
   );
 }
 
 export default App;
+

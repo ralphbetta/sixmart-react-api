@@ -11,7 +11,7 @@ export const Navbar = () => {
     <div className='flex justify-between items-center px-5 py-5 bg-white shadow-md'>
         <h3 className=" font-bold uppercase text-xl">SixMart</h3>
 
-        <ul className='flex gap-5'>
+        <ul className='hidden sm:flex gap-5 '>
             <li><a href="" className=" text-gray-600 font-normal">Home</a></li>
             <li><a href="" className=" text-gray-600 font-normal">Products</a></li>
             <li><a href="" className=" text-gray-600 font-normal">About</a></li>
