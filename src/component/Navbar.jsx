@@ -5,6 +5,7 @@ import {
     AiOutlineUserAdd,
     AiOutlineShoppingCart
 } from 'react-icons/ai'
+import { NavLink } from 'react-router-dom'
 
 export const Navbar = () => {
   return (
@@ -12,10 +13,10 @@ export const Navbar = () => {
         <h3 className=" font-bold uppercase text-xl">SixMart</h3>
 
         <ul className='hidden sm:flex gap-5 '>
-            <li><a href="" className=" text-gray-600 font-normal">Home</a></li>
-            <li><a href="" className=" text-gray-600 font-normal">Products</a></li>
-            <li><a href="" className=" text-gray-600 font-normal">About</a></li>
-            <li><a href="" className=" text-gray-600 font-normal">Contact</a></li>
+            <li><NavLink to="/" className=" text-gray-600 font-normal">Home</NavLink></li>
+            <li><NavLink to="/products" className=" text-gray-600 font-normal">Products</NavLink></li>
+            <li><NavLink to="" className=" text-gray-600 font-normal">About</NavLink></li>
+            <li><NavLink to="" className=" text-gray-600 font-normal">Contact</NavLink></li>
         </ul>
 
         <div className="flex gap-2">

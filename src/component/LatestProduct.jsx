@@ -4,7 +4,7 @@ const image = "https://picsum.photos/200/300"
 
 const LatestProduct = () => {
   return (
-    <div>
+    <div className='mt-8'>
         <u className='flex list-none no-underline gap-3 justify-center mb-10'>
             <li className='border-[1.5px] border-gray-500 px-2 rounded-sm text-gray-500 bg-white hover:bg-gray-500 hover:text-white cursor-pointer'>All</li>
             <li className='border-[1.5px] border-gray-500 px-2 rounded-sm text-gray-500 bg-white hover:bg-gray-500 hover:text-white cursor-pointer'>Men's Clothing</li>
