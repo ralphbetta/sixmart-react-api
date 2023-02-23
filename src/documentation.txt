@@ -6,6 +6,7 @@
 >> npm install react-router-dom --save / --force
 >> npm run start
 >> npm i react-redux
+>> npm i react-loading-skeleton
 
 
 
