@@ -29,7 +29,8 @@ const Product = () => {
     return (
         <div>
             <Navbar/> 
-            <div className=" grid grid-cols-2 mx-[5%] mt-10">
+            
+            <div className=" grid sm:grid-cols-2 mx-[5%] mt-10">
                 <div className=" px-40 flex justify-center items-center">
                 <img src={ product.image} className=' h-full' />
                 </div>

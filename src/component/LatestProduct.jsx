@@ -45,9 +45,8 @@ const LatestProduct = () => {
 
         
     const filterProduct = (param) => {
-         setFilteredList(data)
         console.log({param})
-        const updatedList = filteredList.filter((x)=> x.category === param)
+        const updatedList = data.filter((x)=> x.category === param)
         console.log(updatedList)
         setFilteredList(updatedList)
     }
@@ -71,16 +70,16 @@ const ProductGridLoader = () => {
     return (
       <div>
         <div className="justify-center h-52  col-span-3">
-           <Skeleton className=""/>
+           <Skeleton className="" height={90} width={80}/>
         </div>
         <div className="justify-center h-52  col-span-3">
-           <Skeleton className=""/>
+           <Skeleton className=""  height={90} width={80} />
         </div>
         <div className="justify-center h-52  col-span-3">
-           <Skeleton className=""/>
+           <Skeleton className=""  height={90} width={80} />
         </div>
         <div className="justify-center  h-52 col-span-3">
-           <Skeleton className=""/>
+           <Skeleton className=""  height={90} width={80} />
         </div>
       </div>
      );
